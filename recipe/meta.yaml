@@ -1,6 +1,6 @@
 {% set name = "dask-ndmeasure" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "f87371ce67b023902d6af3daf28ad6a579f618a3e453a6fa4be8fccad3e5c3b3" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "77be8dbcf2429da7cae0f8ec077ccec6ddf35028d515fa9df64c8fb96701e57e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
